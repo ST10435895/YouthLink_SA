@@ -1,0 +1,19 @@
+# Backend (Node.js)
+backend/node_modules/
+backend/.env
+backend/npm-debug.log
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/.DS_Store
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+
+# General
+.DS_Store

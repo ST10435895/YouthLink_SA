@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.opsc.youthlinksa.ui.auth.WelcomeFragment"
+        android:label="Welcome">
+        <action
+            android:id="@+id/action_welcome_to_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_welcome_to_register"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.opsc.youthlinksa.ui.auth.RegisterFragment"
+        android:label="Register">
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/welcomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.opsc.youthlinksa.ui.auth.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.opsc.youthlinksa.ui.opportunities.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_home_to_opportunityDetail"
+            app:destination="@id/opportunityDetailFragment" />
+        <action
+            android:id="@+id/action_home_to_settings"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/opportunityDetailFragment"
+        android:name="com.opsc.youthlinksa.ui.opportunities.OpportunityDetailFragment"
+        android:label="Opportunity Details" />
+
+    <!-- Bottom-nav destinations -->
+
+    <fragment
+        android:id="@+id/careersFragment"
+        android:name="com.opsc.youthlinksa.ui.careers.CareersFragment"
+        android:label="Careers" />
+
+    <fragment
+        android:id="@+id/fundingFragment"
+        android:name="com.opsc.youthlinksa.ui.funding.FundingFragment"
+        android:label="Funding &amp; Bursaries" />
+
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.opsc.youthlinksa.ui.events.EventsFragment"
+        android:label="Events" />
+
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.opsc.youthlinksa.ui.saved.SavedFragment"
+        android:label="Saved" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.opsc.youthlinksa.ui.settings.SettingsFragment"
+        android:label="Settings">
+        <action
+            android:id="@+id/action_settings_to_welcome"
+            app:destination="@id/welcomeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

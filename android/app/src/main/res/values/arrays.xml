@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- First item must match @string/filter_all_fields exactly - the
+         Kotlin code treats that specific value as "no field filter". -->
+    <string-array name="field_options">
+        <item>All Fields</item>
+        <item>IT</item>
+        <item>Marketing</item>
+        <item>Engineering</item>
+        <item>Finance</item>
+        <item>Healthcare</item>
+        <item>Education</item>
+        <item>Business</item>
+        <item>Trades</item>
+    </string-array>
+
+    <!-- First item must match @string/filter_all_types exactly - the
+         Kotlin code treats that specific value as "no type filter". -->
+    <string-array name="type_options">
+        <item>All Types</item>
+        <item>Job</item>
+        <item>Internship</item>
+        <item>Learnership</item>
+        <item>Graduate Programme</item>
+        <item>Part-Time</item>
+        <item>WIL</item>
+    </string-array>
+
+</resources>

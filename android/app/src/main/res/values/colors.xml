@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palette from the Part 1 design doc: green (growth), gold (hope),
+         red (energy), blue (trust), white (clarity) -->
+    <color name="yl_green">#2E7D32</color>
+    <color name="yl_gold">#F9A825</color>
+    <color name="yl_red">#C62828</color>
+    <color name="yl_blue">#1565C0</color>
+    <color name="yl_white">#FFFFFF</color>
+    <color name="yl_background">#F5F7FA</color>
+    <color name="yl_text_primary">#1A1A1A</color>
+    <color name="yl_text_secondary">#6B7280</color>
+</resources>

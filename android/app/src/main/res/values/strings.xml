@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">YouthLink SA</string>
+    <string name="app_slogan">Your next opportunity starts here.</string>
+
+    <!-- Welcome -->
+    <string name="welcome_login">Log In</string>
+    <string name="welcome_register">Register</string>
+
+    <!-- Register -->
+    <string name="register_title">Create Your Account</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="action_register">Register</string>
+    <string name="already_have_account">Already have an account? Log in</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome Back!</string>
+    <string name="action_login">Log In</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+
+    <!-- Home -->
+    <string name="home_title">Home</string>
+    <string name="search_hint">e.g. IT, Marketing, Engineering</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Profile &amp; Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_location">Location</string>
+    <string name="settings_notifications">Enable notifications</string>
+    <string name="settings_save">Save changes</string>
+    <string name="settings_logout">Log Out</string>
+
+    <!-- Opportunities -->
+    <string name="opportunities_title">Opportunities</string>
+    <string name="opportunity_apply">Apply Now</string>
+    <string name="opportunity_save">Save Opportunity</string>
+
+    <!-- Opportunity filters -->
+    <string name="filter_field">Field</string>
+    <string name="filter_type">Type</string>
+    <string name="filter_location">Location</string>
+    <string name="filter_apply">Apply Filters</string>
+    <string name="filter_all_fields">All Fields</string>
+    <string name="filter_all_types">All Types</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_opportunities">Opportunities</string>
+    <string name="nav_careers">Careers</string>
+    <string name="nav_funding">Funding</string>
+    <string name="nav_events">Events</string>
+    <string name="nav_saved">Saved</string>
+</resources>
