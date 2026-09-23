@@ -185,7 +185,7 @@ of any one developer's machine, not just "on my computer."
 
 ## Demo Video
 
-[Add your unlisted YouTube link here once recorded]
+(https://youtu.be/AxlVzOrlD1Q)
 
 ## AI Tool Usage
 
